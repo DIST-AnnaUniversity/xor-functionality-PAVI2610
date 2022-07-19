@@ -9,7 +9,7 @@
 import numpy as np
 def calculate_layer1(x,w):
     #reshape x 
-    x=x.shape(1*3)
+    x=x.shape(1,3)
     #find the transpose of w
     w1=np.transpose(w)
     # find the net
